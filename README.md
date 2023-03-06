@@ -1,2 +1,2 @@
 # fizzbuzz
-Learning how to write my own tests using Rspec
+TDD and Pair Programming over FizzBuzz
