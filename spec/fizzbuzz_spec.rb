@@ -9,8 +9,24 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(5)).to eq 'buzz'
   end
   
+  it 'returns "bang" when passed 14' do
+    expect(fizzbuzz(5)).to eq 'buzz'
+  end
+  
+  it 'returns "pop" when passed 33' do
+    expect(fizzbuzz(5)).to eq 'buzz'
+  end
+  
   it 'returns "fizzbuzz" when passed 15' do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
+  end
+  
+  it 'returns "bangpop" when passed 77' do
+    expect(fizzbuzz(77)).to eq 'bangpop'
+  end
+  
+  it 'returns "fizzbuzzbang" when passed 105' do
+    expect(fizzbuzz(105)).to eq 'fizzbuzzbang'
   end
   
   it 'returns "4" when passed 4' do
